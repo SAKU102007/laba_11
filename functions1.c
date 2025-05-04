@@ -36,7 +36,7 @@ int input_stack_size()
     while (1) {
         if (scanf("%d", &number_of_elements_in_stack) != 1 || number_of_elements_in_stack <= 0)
         {
-            printf("Ошибка: Введите целое неотрицательное число!\n");
+            printf("Ошибка: Введите целое положительное число!\n");
             while (getchar() != '\n');
             continue;
         }
